@@ -1,15 +1,7 @@
-# My.Projects
-Machine Learning
-customer-churn-prediction/
-│
+Customer-Churn-Analysis/
+
 ├── data/
-│   └── telco_churn.csv
-│
+  └── wa_Fn-UseC_-Telco-Customer-Churn.csv
 ├── notebooks/
-│   └── churn_analysis.ipynb
-│
-├── src/
-│   └── model.py   (optional)
-│
-├── requirements.txt
+   └── churn_analysis.ipynb
 └── README.md
