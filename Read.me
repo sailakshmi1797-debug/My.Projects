@@ -1,0 +1,50 @@
+Customer Churn Prediction(Machine Learning)
+
+📌 Project Overview
+The goal of this project is to predict which customers are likely to leave a service (churn) based on their usage patterns and demographic data. By identifying at-risk customers, businesses can proactively offer incentives to improve retention.
+📊 Datase- Telecom Data set
+
+The dataset includes:
+
+1.Demographics: Gender, Age, Partner/Dependent status.
+
+2.Services: Phone service, Internet type, Online security, Streaming TV.
+
+3.Account Info: Contract type, Payment method, Monthly charges, Total charges.
+
+4.Target Variable: Churn (Yes/No).
+
+🛠️ Tech Stack
+
+1.Language: Python
+
+2.Libraries:
+
+  1.Pandas & NumPy (Data Manipulation)
+  2.Matplotlib & Seaborn (Exploratory Data Analysis)
+  3.Scikit-Learn (Model Building & Evaluation)
+  4.XGBoost / LightGBM (Advanced Gradient Boosting)
+
+⚙️ Machine Learning Pipeline
+
+1.Exploratory Data Analysis (EDA): Visualizing correlations between tenure, contract type, and churn.
+
+2.Data Preprocessing:   
+    1.Handling missing values (e.g., TotalCharges).
+    2.Encoding categorical variables (One-Hot & Label Encoding).
+    3.Feature Scaling (StandardScaler).
+    
+3.Handling Class Imbalance: Used SMOTE (Synthetic Minority Over-sampling Technique) to balance the Churn vs. Non-Churn classes.
+
+4.Modeling: Compared multiple algorithms including Logistic Regression, Random Forest, and XGBoost.
+
+5.Evaluation: Focused on Recall and F1-Score to ensure we catch as many potential churners as possible.
+
+💡 Key Insights & Results
+
+1.Accuracy: 95%
+
+2.Key Predictors: High monthly charges and "Month-to-month" contracts were the
+strongest indicators of churn.
+
+3.Business Impact: The model successfully identifies [Insert %] of churners before they leave, allowing for targeted retention marketing.
